@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Shared.Persistence.MySql
 {
-    public class SQLRepository<T> : ISqlRepository<T> where T : class
+    public class SqlRepository<T> : ISqlRepository<T> where T : class
     {
         private readonly ApplicationDbContext _dbContext;
         private readonly DbSet<T> _dbSet;
 
-        public SQLRepository(ApplicationDbContext dbContext)
+        public SqlRepository(ApplicationDbContext dbContext)
         {
             _dbContext = dbContext;
             _dbSet = dbContext.Set<T>();
