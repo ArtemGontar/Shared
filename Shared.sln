@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Common", "Shared.Com
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Persistence.MongoDb", "Shared.Persistence.MongoDb\Shared.Persistence.MongoDb.csproj", "{15B2418F-F78A-474D-B5F8-80E6D3909451}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Persistence.MySql", "Shared.Persistence.MySql\Shared.Persistence.MySql.csproj", "{C8CA1E03-16D5-4810-A8BE-A635A6FC2F10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Persistence.MySql", "Shared.Persistence.MySql\Shared.Persistence.MySql.csproj", "{C8CA1E03-16D5-4810-A8BE-A635A6FC2F10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Bus.Messages", "Shared.Bus.Messages\Shared.Bus.Messages.csproj", "{7169E08A-3248-4350-80B1-8E9A2F217020}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C8CA1E03-16D5-4810-A8BE-A635A6FC2F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8CA1E03-16D5-4810-A8BE-A635A6FC2F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8CA1E03-16D5-4810-A8BE-A635A6FC2F10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7169E08A-3248-4350-80B1-8E9A2F217020}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7169E08A-3248-4350-80B1-8E9A2F217020}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7169E08A-3248-4350-80B1-8E9A2F217020}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7169E08A-3248-4350-80B1-8E9A2F217020}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
