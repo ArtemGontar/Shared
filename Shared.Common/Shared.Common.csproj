@@ -1,7 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Artem Hontar</Authors>
+    <Company>Artem Hontar</Company>
+    <PackageId>Shared.Quiz.Common</PackageId>
+    <Product>Shared.Quiz.Common</Product>
   </PropertyGroup>
 
 </Project>

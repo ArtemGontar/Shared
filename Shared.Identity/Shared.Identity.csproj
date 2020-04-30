@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Artem Hontar</Authors>
+    <PackageId>Shared.Quiz.Identity</PackageId>
+    <Product>Shared.Quiz.Identity</Product>
   </PropertyGroup>
 
   <ItemGroup>
