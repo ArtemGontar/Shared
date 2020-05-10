@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Identity", "Shared.Identity\Shared.Identity.csproj", "{82667AB0-244F-400F-80C5-AE7FB0ACDF90}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Common", "Shared.Common\Shared.Common.csproj", "{787DEACB-82AF-4856-8341-4B055C53A4D1}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Persistence.MongoDb", "Shared.Persistence.MongoDb\Shared.Persistence.MongoDb.csproj", "{15B2418F-F78A-474D-B5F8-80E6D3909451}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Persistence.MySql", "Shared.Persistence.MySql\Shared.Persistence.MySql.csproj", "{C8CA1E03-16D5-4810-A8BE-A635A6FC2F10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared.Bus.Messages", "Shared.Bus.Messages\Shared.Bus.Messages.csproj", "{7169E08A-3248-4350-80B1-8E9A2F217020}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Bus.Messages", "Shared.Bus.Messages\Shared.Bus.Messages.csproj", "{7169E08A-3248-4350-80B1-8E9A2F217020}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Common", "Shared.Common\Shared.Common.csproj", "{93A637B8-94D9-47F8-A6B1-A43C9D3C864E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		{82667AB0-244F-400F-80C5-AE7FB0ACDF90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82667AB0-244F-400F-80C5-AE7FB0ACDF90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82667AB0-244F-400F-80C5-AE7FB0ACDF90}.Release|Any CPU.Build.0 = Release|Any CPU
-		{787DEACB-82AF-4856-8341-4B055C53A4D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{787DEACB-82AF-4856-8341-4B055C53A4D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{787DEACB-82AF-4856-8341-4B055C53A4D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{787DEACB-82AF-4856-8341-4B055C53A4D1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{15B2418F-F78A-474D-B5F8-80E6D3909451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{15B2418F-F78A-474D-B5F8-80E6D3909451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15B2418F-F78A-474D-B5F8-80E6D3909451}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +35,10 @@ Global
 		{7169E08A-3248-4350-80B1-8E9A2F217020}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7169E08A-3248-4350-80B1-8E9A2F217020}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7169E08A-3248-4350-80B1-8E9A2F217020}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A637B8-94D9-47F8-A6B1-A43C9D3C864E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93A637B8-94D9-47F8-A6B1-A43C9D3C864E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93A637B8-94D9-47F8-A6B1-A43C9D3C864E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93A637B8-94D9-47F8-A6B1-A43C9D3C864E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
