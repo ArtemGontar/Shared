@@ -8,7 +8,7 @@ namespace Shared.Identity
     {
         public const string AdminRoleName = "Admin";
         public const string ModeratorRoleName = "Moderator";
-        public const string ProjectManagerRoleName = "ProjectManager";
+        public const string ProjectManagerRoleName = "Manager";
         public const string ClientRoleName = "Client";
     }
 }

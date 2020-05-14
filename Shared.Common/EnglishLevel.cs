@@ -2,7 +2,7 @@
 {
     public enum EnglishLevel
     {
-        Beginner,
+        Beginner = 1,
         Elementary,
         PreIntermediate,
         Intermediate,
