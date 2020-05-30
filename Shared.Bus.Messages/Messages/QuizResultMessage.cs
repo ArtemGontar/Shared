@@ -12,6 +12,7 @@ namespace Shared.Bus.Messages
         public Guid QuizId { get; set; }
         public string QuizTitle { get; set; }
         public Guid UserId { get; set; }
+        public string UserName { get; set; }
         public DateTime TimeStamp { get; set; } = DateTime.UtcNow;
     }
 }
