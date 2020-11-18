@@ -36,6 +36,8 @@ namespace Shared.Persistence.MySql
                 await query.FirstOrDefaultAsync(specification.Predicate);
         }
 
+
+
         public async Task<List<T>> GetAllAsync(ISqlSpecification<T> specification)
         {
             var query = _dbSet.Include(specification.Includes);
